@@ -10,6 +10,7 @@ License:        GPL
 URL:            http://delta.affinix.com/qconf/
 Source0:        http://delta.affinix.com/download/qconf-%{version}.tar.bz2
 Buildrequires:  qt4-devel
+BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}-root
 
 %description
 QConf allows you to have a nice configure script for your
