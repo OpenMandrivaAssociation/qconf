@@ -1,7 +1,5 @@
-%define qtdir   %{_prefix}/lib/qt4
-
 Name:           qconf
-Version:        1.3
+Version:        1.4
 Release:        %mkrel 1
 Epoch:          0
 Summary:        Allows you to have a nice configure script for your qmake-based project
@@ -26,7 +24,7 @@ familiar configuration interface on unix.
 ./configure --prefix=%{_prefix} \
             --bindir=%{_bindir} \
             --datadir=%{_datadir} \
-            --qtdir=%{qtdir}
+            --qtdir=%{qt4dir}
 %{make}
 
 %install
