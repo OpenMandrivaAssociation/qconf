@@ -1,6 +1,6 @@
 Name:           qconf
 Version:        1.4
-Release:        %mkrel 3
+Release:        %mkrel 4
 Epoch:          0
 Summary:        Allows you to have a nice configure script for your qmake-based project
 Group:          Development/KDE and Qt
