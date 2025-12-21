@@ -7,6 +7,11 @@ Group:          Development/KDE and Qt
 License:        GPL
 URL:            https://delta.affinix.com/qconf/
 Source0:        http://delta.affinix.com/download/qconf-%{version}.tar.bz2
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 Buildrequires:  qt4-devel
 BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}-root
 
